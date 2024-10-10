@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #003b95; /* Blue background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #0056b3; /* Darker blue for navbar */
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: large;
+    padding-left: 40px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.auth-buttons {
+    display: flex;
+    padding-right: 20px;
+
+}
+
+.auth-buttons button {
+    background: #ffc107;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-buttons button:hover {
+    background: #e0a800;
+}
+
+.content {
+    padding: 20px;
+}
+
+h2, h3 {
+    margin: 20px 0;
+}
+
+.transport-buttons {
+    display: flex; /* Arrange buttons in a row */
+    justify-content: center; /* Center align the buttons */
+}
+.transport-buttons button{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.transport-item {
+    margin: 0 20px; /* Space between buttons */
+    text-align: center; /* Center align text below images */
+}
+
+.transport-image {
+    width: 500px; /* Adjust image size as needed */
+    height: 100px
+    display: block;
+    margin: 0 auto 10px; /* Center image and add space below */
+}
+
+button {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+#mode{
+    display: flex;
+    justify-content: center;
+}

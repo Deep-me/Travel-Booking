@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background: #003b95; /* Blue background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background: #0056b3; /* Darker blue for navbar */
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: large;
+    padding-left: 40px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: transparent;
+    padding: 20px;
+    margin-top: 20px;
+    border: 5px;
+    border-color: #ccc;
+    box-shadow: 10px 5px 10px 10px rgb(199, 183, 183);
+    border-radius: 50px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.bus-item {
+    background: #e9ecef;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Booking</title>
+    <link rel="stylesheet" href="bus.css">
+</head>
+<body style="background-image: url(./bg_bus.jpg); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;">
+    <header>
+        <h1>Travel Booking</h1>
+    </header>
+    <nav class="nav">
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="bus.html">Bus</a></li>
+            <li><a href="train.html">Train</a></li>
+            <li><a href="flight.html">Flight</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Bus Booking</h1>
+        <form id="bookingForm">
+            <input type="text" id="from" placeholder="From" required>
+            <input type="text" id="to" placeholder="To" required>
+            <input type="date" id="date" required>
+            <button type="submit">Search</button>
+        </form>
+        <div id="busResults" class="results"></div>
+    </div>
+    
+    <script src="bus.js"></script>
+</body>
+</html>
