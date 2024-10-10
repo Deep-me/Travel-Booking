@@ -22,4 +22,4 @@ Welcome to the Travel Booking website! This web application allows users to book
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/travel-booking.git
+   git clone https://github.com/Deep-me/Travel-Booking.git
